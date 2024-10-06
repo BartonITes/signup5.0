@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form id="signupForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+  
+            <label for="location"><a href="https://www.google.com/maps/@8.8828829,76.5922456,14z?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">Give Access to Location</a></label><input type="checkbox" id="location" name="location" value="yes">
+            
+
+            <button type="submit"><a href="https://www.figma.com/design/ziPiKsA9uUQ5CBwpxjNRpO/Untitled?node-id=15-24&node-type=canvas">Sign Up</a></button>
+        </form>
+
+        <h2>Registered Users</h2>
+        <ul id="userList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
